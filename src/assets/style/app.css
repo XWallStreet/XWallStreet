@@ -1,0 +1,87 @@
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+blockquote,
+th,
+td,
+hr,
+button,
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  margin: 0;
+  padding: 0;
+}
+#xws-root .xws-header-icon-container .xws-btn {
+  line-height: 1;
+}
+#xws-root .xws-header-icon-container .xws-btn-icon * {
+  font-size: 16px !important;
+}
+#xws-root .xws-hide {
+  display: none;
+}
+#xws-root .xws-icon-group .xws-typography {
+  margin-bottom: 0;
+  line-height: 18px;
+}
+#xws-root .xws-icon-group .xws-space-item {
+  cursor: pointer;
+}
+#xws-root .xws-building-wrap {
+  position: relative;
+  padding-top: 18px;
+  padding-bottom: 8px;
+  border-radius: 20px;
+  background-color: var(--xws-color-border-secondary);
+}
+#xws-root .xws-building-wrap .xws-building {
+  margin-top: 16px;
+}
+#xws-root .xws-upgrade-wrap h5,
+.xws-upgrade-item {
+  height: 30px;
+  line-height: 30px;
+}
+#xws-root .xws-upgrade-wrap .xws-upgrade-item {
+  font-weight: 600;
+}
+#xws-root .xws-upgrade-wrap .xws-upgrade-item .text {
+  line-height: 30px;
+}
+
+.ant-notification,
+.xws-notification {
+  z-index: 100000001 !important;
+}
+
+#xws-drawer .xws-drawer-body {
+  padding: 8px !important;
+}

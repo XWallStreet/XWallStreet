@@ -1,0 +1,67 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@src/*": [
+        "src/*"
+      ],
+      "@assets/*": [
+        "src/assets/*"
+      ],
+      "@pages/*": [
+        "src/pages/*"
+      ],
+      "@root/*": [
+        "./*"
+      ],
+      "virtual:reload-on-update-in-background-script": [
+        "./src/global.d.ts"
+      ],
+      "virtual:reload-on-update-in-view": [
+        "./src/global.d.ts"
+      ]
+    },
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "noFallthroughCasesInSwitch": true,
+    "strict": false,
+    "skipLibCheck": true,
+    "target": "esnext",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "types": [
+      "vite/client",
+      "node"
+    ],
+    "typeRoots": [
+      "./src/global.d.ts",
+      "node_modules/@types"
+    ],
+    "allowJs": false,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "incremental": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "resolveJsonModule": true,
+    "declaration": false,
+    "declarationMap": false,
+    "inlineSources": false,
+    "moduleResolution": "node",
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "preserveWatchOutput": true,
+    "verbatimModuleSyntax": true,
+    "jsx": "react-jsx"
+  },
+  "include": [
+    "src",
+    "utils",
+    "vite.config.ts",
+    "node_modules/@types"
+  ]
+}
