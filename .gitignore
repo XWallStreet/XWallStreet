@@ -33,3 +33,4 @@ public/manifest.json
 .rollup.cache
 dist
 tsconfig.tsbuildinfo
+
